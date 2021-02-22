@@ -6,6 +6,15 @@
 
 - https://github.com/asadmanzoor93/elk-siem
 
+## Elatic repo:
+
+- https://github.com/elastic/examples/tree/master/Machine%20Learning/Security%20Analytics%20Recipes
+
+- https://www.elastic.co/guide/en/siem/guide/current/siem-overview.html
+
+- https://www.elastic.co/pt/blog/machine-learning-for-nginx-logs
+
+
 ## Prerequisites:
 
 To run this lab you will need both the docker engine and docker compose installed. If you can run "docker -v" and "docker-compose -v" and get a version number back, you should be good to go. If you see errors when you run the docker-compose file, you may just need to reboot.
