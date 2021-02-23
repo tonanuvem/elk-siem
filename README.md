@@ -18,9 +18,7 @@
 
 ### Config: "Override settings"
 
-```
-%{SYSLOGBASE} \[%{DATA}\] \[%{DATA:action}\] IN=(%{WORD:in})? OUT=(%{WORD:out})?( MAC=%{DATA:mac})? SRC=%{IP:source_ip} DST=%{IP:destination_ip} %{DATA} PROTO=%{WORD:protocol}( SPT=%{INT:source_port} DPT=%{INT:destination_port})?```
-```
+```%{SYSLOGBASE} \[%{DATA}\] \[%{DATA:action}\] IN=(%{WORD:in})? OUT=(%{WORD:out})?( MAC=%{DATA:mac})? SRC=%{IP:source_ip} DST=%{IP:destination_ip} %{DATA} PROTO=%{WORD:protocol}( SPT=%{INT:source_port} DPT=%{INT:destination_port})?```
 
 ### Config: "Advanced settings"
 
