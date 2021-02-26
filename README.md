@@ -68,7 +68,7 @@ Place the following in the **mappings** window:
       "type": "long"
     },
     "geoip": {
-        "location": { "type": "geo_point" }
+       "location": { "type": "geo_point" }
     },
   }
 }
@@ -97,20 +97,6 @@ Place the following in the ingest pipeline window:
           "MMM  d HH:mm:ss",
           "MMM d HH:mm:ss"
         ]
-      }
-    },
-    {
-      "convert": {
-        "field": "destination_port",
-        "type": "long",
-        "ignore_missing": true
-      }
-    },
-    {
-      "convert": {
-        "field": "source_port",
-        "type": "long",
-        "ignore_missing": true
       }
     },
     {
