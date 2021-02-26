@@ -6,6 +6,8 @@
 
 - https://github.com/asadmanzoor93/elk-siem
 
+- https://github.com/AICoE/log-anomaly-detector
+
 ## Elatic repo:
 
 - https://github.com/elastic/examples/tree/master/Machine%20Learning/Security%20Analytics%20Recipes
