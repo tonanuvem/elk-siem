@@ -68,7 +68,9 @@ Place the following in the **mappings** window:
       "type": "long"
     },
     "geoip": {
-       "location": { "type": "geo_point" }
+      "properties": {
+        "location": { "type": "geo_point" }
+      }
     }
   }
 }
