@@ -69,7 +69,7 @@ Place the following in the **mappings** window:
     },
     "geoip": {
        "location": { "type": "geo_point" }
-    },
+    }
   }
 }
 ```
