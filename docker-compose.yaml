@@ -28,6 +28,8 @@ services:
       - XPACK_MONITORING_ELASTICSEARCH_PASSWORD=changeme
     ports:
       - "9600:9600"
+    networks:
+     - shell-network
     volumes:
       - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
       - ./sample.log:/usr/tmp/sample.log
