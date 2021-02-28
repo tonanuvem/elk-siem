@@ -19,6 +19,20 @@ services:
     environment:
       discovery.type: single-node
 
+ 
+  logstash:
+    image: docker.elastic.co/logstash/logstash:7.10.1
+    environment:
+      - XPACK_MONITORING_ELASTICSEARCH_URL=http://elasticsearch:9200
+      - XPACK_MONITORING_ELASTICSEARCH_USERNAME=elastic
+      - XPACK_MONITORING_ELASTICSEARCH_PASSWORD=changeme
+    ports:
+      - "9600:9600"
+    #volumes:
+    #  - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+    depends_on:
+      - elasticsearch
+      
   kibana:
     image: "docker.elastic.co/kibana/kibana:7.10.1"
     container_name: kibana
