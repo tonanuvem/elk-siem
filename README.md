@@ -110,8 +110,7 @@ Place the following in the ingest pipeline window:
     },
     {
       "geoip": {
-        "field" : "source_ip",
-        "database_file": "GeoLite2-ASN.mmdb"
+        "field" : "source_ip"
       }
     }
   ]
