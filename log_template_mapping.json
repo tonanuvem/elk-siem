@@ -6,7 +6,7 @@
   },
   "mappings" : {
     "_default_" :
-      "properties": {
+      "properties" : {
         "@timestamp": {
           "type": "date"
         },
