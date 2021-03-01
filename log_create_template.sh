@@ -12,4 +12,10 @@ PASSWORD=changeme
 
 printf "\n== Script for uploading template == \n \n"
 
-curl -s -u ${USERNAME}:${PASSWORD} -X PUT -H "Content-Type: application/json" ${URL}/_template/${INDEX_NAME}/ --data-binary ${TEMPLATE_FILE} > /dev/null
+printf "\n== Uploading data to index... \n"
+
+curl -s -u ${USERNAME}:${PASSWORD} -X PUT -H "Content-Type: application/json" ${URL}/_template/${INDEX_NAME}/ --data-binary ${TEMPLATE_FILE}
+
+printf "\n\n== Check upload \n"
+
+curl -XGET http://localhost:9200/ufw_logs/_mapping?pretty
