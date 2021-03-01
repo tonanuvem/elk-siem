@@ -14,6 +14,8 @@
 
 - https://www.elastic.co/guide/en/kibana/master/saved-objects-api-import.html
 
+- https://logz.io/blog/filebeat-vs-logstash/
+
 ## Elatic repo:
 
 - https://github.com/elastic/examples/tree/master/Machine%20Learning/Security%20Analytics%20Recipes
