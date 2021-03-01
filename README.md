@@ -8,6 +8,8 @@
 
 - https://github.com/AICoE/log-anomaly-detector
 
+- https://coralogix.com/log-analytics-blog/logstash-grok-tutorial-with-examples/
+
 ## Elatic repo:
 
 - https://github.com/elastic/examples/tree/master/Machine%20Learning/Security%20Analytics%20Recipes
