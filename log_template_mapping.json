@@ -5,9 +5,7 @@
     "index.refresh_interval" : "5s"
   },
   "mappings" : {
-    "_default_" : {
-    #YOUR PROPERTIES SECTION GOES HERE
-
+    "_default_" :
       "properties": {
         "@timestamp": {
           "type": "date"
