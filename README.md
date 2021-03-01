@@ -10,6 +10,8 @@
 
 - https://coralogix.com/log-analytics-blog/logstash-grok-tutorial-with-examples/
 
+- https://www.elastic.co/pt/blog/logstash_lesson_elasticsearch_mapping
+
 ## Elatic repo:
 
 - https://github.com/elastic/examples/tree/master/Machine%20Learning/Security%20Analytics%20Recipes
