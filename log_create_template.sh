@@ -16,9 +16,9 @@ printf "\n== Uploading template of index... \n"
 
 curl -s -u ${USERNAME}:${PASSWORD} -X PUT -H "Content-Type: application/json" ${URL}/_template/${INDEX_NAME}/ --data-binary ${TEMPLATE_FILE}
 
-printf "\n== Deleting index... \n"
+#printf "\n== Deleting index... \n"
 
-curl -XDELETE http://localhost:9200/${INDEX_NAME}?pretty
+#curl -XDELETE http://localhost:9200/${INDEX_NAME}?pretty
 
 printf "\n\n== Check upload \n"
 
