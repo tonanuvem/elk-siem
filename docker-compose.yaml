@@ -34,7 +34,7 @@ services:
       - ./logstash_pipeline_demo.conf:/usr/share/logstash/pipeline/logstash_pipeline_demo.conf
       - ./logstash_pipeline_demo.conf:/usr/share/logstash/pipeline/logstash_pipeline_demo.conf
       - ./sample.log:/usr/tmp/sample.log
-      - ./ufw.log:/usr/tmp/ufw.log
+      - ./Dataset/ufw.log:/usr/tmp/ufw.log
     depends_on:
       - elasticsearch
       
