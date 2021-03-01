@@ -1,0 +1,60 @@
+{
+  "template" : "ufw_logs*",
+  "version" : 50001,
+  "settings" : {
+    "index.refresh_interval" : "5s"
+  },
+  "mappings" : {
+    "_default_" : {
+    #YOUR PROPERTIES SECTION GOES HERE
+
+      "properties": {
+        "@timestamp": {
+          "type": "date"
+        },
+        "action": {
+          "type": "keyword"
+        },
+        "destination_ip": {
+          "type": "ip"
+        },
+        "destination_port": {
+          "type": "long"
+        },
+        "in": {
+          "type": "keyword"
+        },
+        "logsource": {
+          "type": "keyword"
+        },
+        "mac": {
+          "type": "keyword"
+        },
+        "message": {
+          "type": "text"
+        },
+        "out": {
+          "type": "keyword"
+        },
+        "program": {
+          "type": "keyword"
+        },
+        "protocol": {
+          "type": "keyword"
+        },
+        "source_ip": {
+          "type": "ip"
+        },
+        "source_port": {
+          "type": "long"
+        },
+        "geoip": {
+          "properties": {
+            "location": { "type": "geo_point" }
+          }
+        }        
+      }
+      
+    }
+  }
+}
