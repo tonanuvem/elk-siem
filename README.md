@@ -12,6 +12,8 @@
 
 - https://www.elastic.co/pt/blog/logstash_lesson_elasticsearch_mapping
 
+- https://www.elastic.co/guide/en/kibana/master/saved-objects-api-import.html
+
 ## Elatic repo:
 
 - https://github.com/elastic/examples/tree/master/Machine%20Learning/Security%20Analytics%20Recipes
