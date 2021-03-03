@@ -10,6 +10,9 @@ URL="http://${HOST}:${PORT}"
 USERNAME=elastic
 PASSWORD=changeme
 
+printf "\n== Executing stack == \n \n"
+docker-compose up -d
+
 printf "\n== Script for creating index and uploading data == \n \n"
 
 #printf "\n== Deleting old index == \n\n"
