@@ -51,10 +51,10 @@ services:
     depends_on:
      - elasticsearch
  
-  cerebro:
-    image: "lmenezes/cerebro"
-    container_name: cerebro
-    networks:
-     - shell-network
-    ports:
-     - "9000:9000"
+#  cerebro:
+#    image: "lmenezes/cerebro"
+#    container_name: cerebro
+#    networks:
+#     - shell-network
+#    ports:
+#     - "9000:9000"
