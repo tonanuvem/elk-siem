@@ -32,7 +32,8 @@ services:
      - shell-network
     volumes:
       #- ./logstash_pipeline_demo.conf:/usr/share/logstash/pipeline/logstash_pipeline_demo.conf
-      - ./logstash_pipeline_ufw.conf:/usr/share/logstash/pipeline/logstash_pipeline_ufw.conf
+      - ./logstash_pipeline_ecommerce.conf:/usr/share/logstash/pipeline/logstash_pipeline_ecommerce.conf
+      #- ./logstash_pipeline_ufw.conf:/usr/share/logstash/pipeline/logstash_pipeline_ufw.conf
       - ./sample.log:/usr/tmp/sample.log
       - ./Dataset/ufw.log:/usr/tmp/ufw.log
     depends_on:
